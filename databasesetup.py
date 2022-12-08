@@ -60,7 +60,9 @@ class DatabaseSetup(commands.Cog):
             cursor.execute(create_bot_email_table)
             connection.commit()
             sql = ("INSERT INTO emailsetup(BOT_EMAIL,BOT_EMAIL_PASSWORD) VALUES(?,?)")
-            val = ("rosinantecorazon41@gmail.com", "yerhtlkshtnf245fd")
+ ######################################val = ("your email here", "your password here")###############################################
+#######################################################################################################################################
+###############################################################################################################################
             cursor.execute(sql, val)
             connection.commit()
 
